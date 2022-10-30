@@ -1,15 +1,18 @@
-/* import Navbar from "./Component/Navbar";
- */ 
-import Example2 from "./Example2"
-function App() {
-  return (
-    <div>
-      {/*       <Navbar/>
-
- */}
- <Example2/>
-    </div>
-  )
+import React, { Component } from 'react'
+import ContactApp from './Contact App/ContactApp'
+import Navbar from './Contact App/Navbar'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route exact path="/contact" ></Route>
+          </Routes>
+        </Router>
+      </div>
+    )
+  }
 }
-
-export default App
