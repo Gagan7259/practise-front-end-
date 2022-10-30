@@ -186,3 +186,43 @@ obj.us() */
 
 
 //for ...of method
+//
+/* const data=[1000,30,59,67,78]
+for(const a of data){
+    console.log(data)
+} */
+
+
+//DEFAULT PARAMETER
+/* function user(name,age){
+    console.log(name+" "+age)
+}
+user("gagan",34) */
+
+//REST OPERATER
+/* function user(name,...remaining){
+    console.log(name+" "+remaining)
+
+}
+user("gagan",22,"male","gagankumar@gmail.com") */
+
+//SPREAD OPERATER
+/* let a=[100,30,59,80,64]
+let b=[1,2,3,4,5,6,7]
+let c=[...a,...b]
+console.log(c) */
+
+//DESTRUCTURING
+/* 
+let p={
+    name:"gagan",
+    age:23,
+    email:"gagan@gamil.com"
+
+}
+console.log(p.name)
+let {name,age,email}=p;
+console.log(name);
+console.log(age)
+console.log(email) */
+
