@@ -25,15 +25,15 @@ console.log(e);
                     <form>
                         <div className='form-group'>
                             <label >First :</label>
-                            <input className='form-controle' onChange={this.onchangeHandler} value={this.state.First} type="text" placeholder='enter First name' />
+                            <input className='form-controle'name='first' onChange={this.onchangeHandler} value={this.state.First} type="text" placeholder='enter First name' />
                         </div>
                         <div className='form-group'>
                             <label >Last :</label>
-                            <input className='form-controle' onChange={this.onchangeHandler} value={this.state.Last} type="text" placeholder='enter Last name' />
+                            <input className='form-controle' name='last' onChange={this.onchangeHandler} value={this.state.Last} type="text" placeholder='enter Last name' />
                         </div>
                         <div className='form-group'>
                             <label >Email:</label>
-                            <input className='form-controle' type="text" onChange={this.onchangeHandler} value={this.state.Email} placeholder='enter Email' />
+                            <input className='form-controle' name='email' type="text" onChange={this.onchangeHandler} value={this.state.Email} placeholder='enter Email' />
                         </div>
                         <div>
                             <input onChange={this.submitHandler} type="button" value="Login" className='btn btn-success' />
