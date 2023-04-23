@@ -1,0 +1,19 @@
+1.builtin color=>inbuilt color
+2.hexadecimal=>#2542635
+3.RGB format=>red green blue combination colors
+4.HSL=>Hue Saturation and Lightness
+5.HUE=>its conbination of red green and blue
+         range btween the 0 to 360
+          red=0
+          blue=120
+          green=240
+
+SATURATION=its range btwwn the 0% to 100%
+its reprasent5s the grey
+
+LIGHTNESS=>0% reprasents the black there no Lightness
+           50% reprasents the neither dark or Lightness
+           100% repasents the light no dark is hereF
+           
+6.HSL ,HSLA=>syntax
+           color:hsla(H,S,L,A)

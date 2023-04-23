@@ -8,3 +8,5 @@ const assets = [
 
 const a = assets.some(asset => asset.type === "Video")
 console.log(a)
+const b = assets.some(assett => assett.type === "audio")
+console.log(b)
