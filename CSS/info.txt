@@ -17,3 +17,19 @@ LIGHTNESS=>0% reprasents the black there no Lightness
            
 6.HSL ,HSLA=>syntax
            color:hsla(H,S,L,A)
+
+  SELECTERS:-selecters are different types of selectors in css
+            1.css element selectors
+                      div p h1 h2 h3 h4 h5 h6 span a 
+            2.css id selectors
+                       id="a" like this
+            3.class selectors
+                      class="a"
+            4.universal selectors
+                          *{
+                            color="black
+                          }
+            5.group se;lectors 
+             h1,p,div,span,a{
+                color="Green"
+             }
