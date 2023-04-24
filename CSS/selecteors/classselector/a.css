@@ -1,0 +1,12 @@
+.htag {
+  color: blueviolet;
+  background-color: aqua;
+  text-align: center;
+}
+.ptag {
+    background-color: aliceblue;
+    color: blue;
+    font-kerning: normal;
+    font-stretch: extra-condensed;
+    font-variant-caps:unicase;
+}

@@ -1,0 +1,17 @@
+#we{
+    background-color: black;
+    color: aliceblue;
+}
+#ok{
+    background-color:aqua;
+    color: black;
+    font-size: small;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-style: oblique;
+    font-display:unset;
+    font-variant: small-caps;
+    font-feature-settings: "abvm";
+    font-variant-numeric: proportional-nums;
+    animation-name: initial;
+    animation-play-state: running;
+}
