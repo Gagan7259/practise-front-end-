@@ -33,3 +33,14 @@ LIGHTNESS=>0% reprasents the black there no Lightness
              h1,p,div,span,a{
                 color="Green"
              }
+
+
+
+CSS BACKGROUND:-background-color:- to set background color of the element in html web page
+                                    background-color:color-name;
+                                    
+                 background-image:-to set background image  in html web page its cover the web page 
+                                   background-image:url("locqtion)
+                 background-repasents
+                 background-attachment
+                 background-position

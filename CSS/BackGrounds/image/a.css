@@ -1,0 +1,12 @@
+body {
+  background-image: url(https://wallpapercave.com/wp/wp2055034.jpg );
+  height: 100px;
+  width: 100%;
+  background-repeat:repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  position: fixed;
+  nav-left: root;
+}
