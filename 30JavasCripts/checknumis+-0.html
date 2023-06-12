@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Number</title>
+    <script type="text/javascript">
+        function checking() {
+            var Value = document.getElementById('data').value;
+            var result = Math.sign(Value);
+            if (Value > 0) {
+                result = `${Value} + "Its Postive Number"`
+            } else if (Value < 0) {
+                result = `${Value} + "Its Negetive Number"`
+
+            } else if (Value === 0) {
+                result = `${Value} + "Its Zero" `
+            } else {
+                result = `${Value}"Not A number"`
+            }
+
+            document.getElementById(`res`).innerText = result;
+        }
+    </script>
+</head>
+
+<body>
+    <input id="data" type="number">
+    <button onclick="checking()">Check</button>
+    <h1 id="res"></h1>
+</body>
+
+</html>

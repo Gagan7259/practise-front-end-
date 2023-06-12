@@ -1,8 +1,0 @@
-3 types
-1.language reprasents the to[p]
-2.Head tag:=
-            Using for authour imformation
-            some styles linking tags  
-3.Body tag:+full website components and pages,script tags all are written here
-
-

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Numbers</title>
+    <script type="text/javascript">
+        function genarate() {
+            var x = Math.random();
+            console.log(x)
+            document.getElementById('res').innerHTML = x + " Before Multiply";
+            var y = x * (10 - 1) + 1;
+            console.log(y)
+            document.getElementById('res2').innerHTML = y + " After Multiply";
+
+        }
+    </script>
+</head>
+
+<body>
+    <h1 id="res"></h1>
+    <h2 id="res2"></h2>
+    <button onclick="genarate()">Click Here</button>
+</body>
+
+</html>
