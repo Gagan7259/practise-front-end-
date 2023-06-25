@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial</title>
+    <script type="text/javascript">
+        function caluclate() {
+            let Number1 = document.getElementById(`data`);
+            const Number = parseInt(Number1.value);
+            let fact = 1;
+            if ( isNaN(Number1)   &&Number == 0) {
+                rs = `please Enter Current number`
+            } else {
+                for (var i = 1; i <= Number; i++) {
+                    fact = fact * i;
+                }
+                console.log(fact)
+            }
+            document.getElementById(`res`).textContent = `${fact}`;
+
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Factorial </h1>
+    <input id="data" type="number">
+    <button onclick="caluclate()">Caluclate</button>
+    <h1 id="res"></h1>
+</body>
+
+</html>

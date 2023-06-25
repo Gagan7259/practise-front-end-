@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Number</title>
+    <script type="text/javascript">
+        function display() {
+            var val = document.getElementById(`data`).value;
+
+            if (val==1) {
+                var res=`${val} is Neither prime Or Nor not`
+            } else if (val < 1) {
+                var res=`${val} is  Not prime Number`
+            }
+            else {
+                for (var i = 2; i < val; i++) {
+                    if (val % i == 0) {
+                        var res = `${val} is Not Prime Number`
+                        break;
+                    } else {
+                        var res = `${val} is Prime Number`
+                    }
+
+                }
+                console.log(res)
+            }
+            document.getElementById(`res`).innerHTML = res;
+        }
+    </script>
+</head>
+
+<body>
+    <input id="data" type="text">
+    <button onclick="display()"> click Here</button>
+    <h1 id="res"></h1>
+</body>
+
+</html>
